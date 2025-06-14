@@ -15,9 +15,11 @@
 --------------------------------------------------------------*/
 :root {
   --villoz-font: "Plus Jakarta Sans", sans-serif;
-  --villoz-heading-font: "Plus Jakarta Sans", serif;
+  /* --villoz-heading-font: "Plus Jakarta Sans", serif; */
+  /* --villoz-heading-font: "Raleway", sans-serif; */
+  --villoz-heading-font: "Bitter", serif;
   --villoz-special-font: "reeyregular", cursive;
-  --villoz-text: #737a83;
+  /* --villoz-text: #737a83;
   --villoz-text-rgb: 115, 122, 131;
   --villoz-text-dark: #859ab7;
   --villoz-text-dark-rgb: 133, 154, 183;
@@ -36,7 +38,40 @@
   --villoz-black3: #000;
   --villoz-black3-rgb: 0, 0, 0;
   --villoz-border-color: #d6e2f0;
-  --villoz-border-color-rgb: 214, 226, 240;
+  --villoz-border-color-rgb: 214, 226, 240; */
+
+  /* Green */
+
+  --villoz-text: #6a766d;
+  --villoz-text-rgb: 106, 118, 109;
+
+  --villoz-text-dark: #6f927a;
+  --villoz-text-dark-rgb: 111, 146, 122;
+
+  --villoz-text-gray: #868a84;
+  --villoz-text-gray-rgb: 134, 138, 132;
+
+  --villoz-base: #5c9e65;
+  --villoz-base-rgb: 92, 158, 101;
+
+  --villoz-gray: #eef8f0;
+  --villoz-gray-rgb: 238, 248, 240;
+
+  --villoz-white: #fff;
+  --villoz-white-rgb: 255, 255, 255;
+
+  --villoz-black: #1e3622;
+  --villoz-black-rgb: 30, 54, 34;
+
+  --villoz-black2: #13281a;
+  --villoz-black2-rgb: 19, 40, 26;
+
+  --villoz-black3: #000;
+  --villoz-black3-rgb: 0, 0, 0;
+
+  --villoz-border-color: #d3e7d6;
+  --villoz-border-color-rgb: 211, 231, 214;
+
   --villoz-letter-space: 0.1em;
   --villoz-letter-space-xl: 0.2em;
 }
@@ -590,7 +625,7 @@ h6 {
   animation-iteration-count: infinite;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 60px auto;
+  background-size: 150px auto;
   width: 100%;
   height: 100%;
 }
@@ -13141,6 +13176,15 @@ body.boxed-wrapper .page-wrapper {
   font-size: 15px;
   line-height: 26px;
   margin: 0;
+}
+
+
+
+
+.centered-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*--------------------------------------------------------------
